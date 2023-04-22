@@ -4,8 +4,8 @@ This script is intended to be a generic example for ML problems but uses the Kag
 of its functionality. It will score about 77%, which I am happy with given that this whole project is to be used as a
 generic example for a ML project rather than a massive push on that problem. 
 
-All the code specilised for the Titanic dataset are in Data_Cleaning.py and Data_Visualisation.py and of course related to 
-data-speific processing and visualisation. 
+All the code specialised for the Titanic dataset are in Data_Cleaning.py and Data_Visualisation.py and, of course, relate to 
+data-specific processing and visualisation. 
 
 This code will iterate though what I call the major hyperparameters
     1 - the limit to which feature can correlate with other features (multicollinearity)
@@ -26,7 +26,7 @@ Then it build simple keras sequential models optimising the model specific hyper
     3 - BayesianOptimization
 
 Finally, it will create a simple ensemble model using a simple majority voting system on the top 10 models as determined
-by the models Jaccord and F1 scores.
+by the model's Jaccord and F1 scores.
 
 Note that this primarily an example and as such each model has been designed to be computationally inexpensive rather
 than optimal, which hits the effectiveness of the deep learning models quite hard.
